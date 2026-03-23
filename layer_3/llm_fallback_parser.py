@@ -10,8 +10,11 @@ import google.generativeai as genai
 from typing import Optional, Dict, List
 from datetime import datetime, timedelta
 
-# Configure Gemini API
-GEMINI_API_KEY = "AIzaSyDwqakxfkDBkthnwZ6gkS6TndB_SI6wGN0"
+# Configure Gemini API (Load from environment variable)
+import os
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'YOUR_API_KEY_HERE')
+if GEMINI_API_KEY == 'YOUR_API_KEY_HERE':
+    print("⚠️  WARNING: GEMINI_API_KEY not set. Set it via: export GEMINI_API_KEY=your_key")
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash-lite')  # Fastest free tier
 

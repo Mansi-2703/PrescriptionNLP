@@ -381,8 +381,12 @@ class Layer4Pipeline:
 # ============================================================================
 
 if __name__ == "__main__":
-    # Get API key from environment
-    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyDwqakxfkDBkthnwZ6gkS6TndB_SI6wGN0')
+    # Get API key from environment variable
+    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'YOUR_API_KEY_HERE')
+    if GEMINI_API_KEY == 'YOUR_API_KEY_HERE':
+        print("⚠️  WARNING: GEMINI_API_KEY environment variable not set!")
+        print("   Set it via: export GEMINI_API_KEY=your_api_key")
+        print("   Or set it in .env file and load with python-dotenv")
     
     # Initialize pipeline
     pipeline = Layer4Pipeline(api_key=GEMINI_API_KEY if GEMINI_AVAILABLE else None)
