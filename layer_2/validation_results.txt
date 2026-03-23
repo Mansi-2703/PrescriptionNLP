@@ -1,0 +1,101 @@
+==========================================================================================
+HOUR 2 - 8 TEST CASES
+==========================================================================================
+
+Test 1: "Atorva 20 mg OD x7d at bedtime"
+------------------------------------------------------------------------------------------
+{
+  "medicine_name": "Atorvastatin",
+  "form": null,
+  "strength": "20 mg",
+  "dosage": null,
+  "frequency": "OD",
+  "duration": "7 days",
+  "notes": null
+}
+
+Test 2: "Cal Carb 500MG BD aft fd for 5 days"
+------------------------------------------------------------------------------------------
+{
+  "medicine_name": "Calcium Carbonate",
+  "form": null,
+  "strength": "500 mg",
+  "dosage": null,
+  "frequency": "BD",
+  "duration": "5 days",
+  "notes": "after food"
+}
+
+Test 3: "TAB Metfromin 850 mg 2 tablets BD aftr meals for 7d"
+------------------------------------------------------------------------------------------
+{
+  "medicine_name": "Metformin",
+  "form": "tablet",
+  "strength": "850 mg",
+  "dosage": "2 tablets",
+  "frequency": "BD",
+  "duration": "7 days",
+  "notes": "after food, after meals"
+}
+
+Test 4: "Ome40mg OD ac"
+------------------------------------------------------------------------------------------
+{
+  "medicine_name": "Omeprazole",
+  "form": null,
+  "strength": "40 mg",
+  "dosage": null,
+  "frequency": "OD",
+  "duration": null,
+  "notes": "before meals"
+}
+
+Test 5: "Paracitamol 1000 mg 1 tablet SOS x3d a/f"
+------------------------------------------------------------------------------------------
+{
+  "medicine_name": "Paracetamol",
+  "form": null,
+  "strength": "1000 mg",
+  "dosage": "1 tablet",
+  "frequency": "SOS",
+  "duration": "3 days",
+  "notes": "after food, before meals"
+}
+
+Test 6: "Inj Panto 40 mg 1 vial OD in AM for 14 days"
+------------------------------------------------------------------------------------------
+{
+  "medicine_name": "Pantoprazole",
+  "form": "injection",
+  "strength": "40 mg",
+  "dosage": "1 vial",
+  "frequency": "OD",
+  "duration": "14 days",
+  "notes": "morning only"
+}
+
+Test 7: "Tab Domperidone 10 mg 1 tablet TDS x1wk 30 min before meals"
+------------------------------------------------------------------------------------------
+{
+  "medicine_name": "Domperidone",
+  "form": "tablet",
+  "strength": "10 mg",
+  "dosage": "1 tablet",
+  "frequency": "TDS",
+  "duration": "7 days",
+  "notes": "30 min before meals"
+}
+
+Test 8: "SUSP Ibuprofin100 mgs/5 ml5 ml SOS aft meals x14 days"
+------------------------------------------------------------------------------------------
+{
+  "medicine_name": "Ibuprofen",
+  "form": "suspension",
+  "strength": "100 mg",
+  "dosage": "5 ml",
+  "frequency": "SOS",
+  "duration": "14 days",
+  "notes": "after food, after meals"
+}
+
+==========================================================================================
